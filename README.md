@@ -2,3 +2,4 @@
 
 [DEMO PAGE https://ft-model-agency.netlify.app/](https://ft-model-agency.netlify.app/)
 
+![Screenshot](./ft-model-agency-screenshot.png)
