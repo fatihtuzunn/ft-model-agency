@@ -486,8 +486,25 @@ body{
   margin-bottom: 2rem;
 }
 .portfolio-modal .modal-content img {
-  margin-bottom: 2rem;
+border: #000 solid 1px;
+box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
 }
+
+.portfolio-modal .modal-content img:hover{
+  -webkit-transition: all 0.7s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+  -ms-transform: scale(1.5, 1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5, 1.5);
+  /* Safari */
+  transform: scale(1.5, 1.5);
+}
+
+
+
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;
@@ -500,6 +517,7 @@ body{
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
+
 
 
 
